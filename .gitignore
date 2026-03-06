@@ -1,0 +1,10 @@
+# Ignorar dependencias de los subproyectos
+**/node_modules
+**/dist
+**/.next
+**/.env
+**/.env.local
+
+# Ignorar archivos de sistema
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: ./rickAndMorty-frontend
+      args:
+        - NEXT_PUBLIC_API_URL=https://upgraded-space-broccoli-974jgpqwgqvwvcrrx-3000.app.github.dev/api
+    ports:
+      - "3001:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=https://upgraded-space-broccoli-974jgpqwgqvwvcrrx-3000.app.github.dev/api
